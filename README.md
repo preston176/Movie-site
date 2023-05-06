@@ -2,6 +2,10 @@
 
 This is a movie website that allows users to search for movies and obtain information about them. It provides a user-friendly interface and a search functionality to find movies based on various criteria.
 
+### time spent coding
+
+[![wakatime](https://wakatime.com/badge/user/d8868823-72bc-46a7-8dbd-396ba5326e3a/project/43da0ec0-99fd-4e48-8f32-5a2359f83557.svg)](https://wakatime.com/badge/user/d8868823-72bc-46a7-8dbd-396ba5326e3a/project/43da0ec0-99fd-4e48-8f32-5a2359f83557)
+
 ## Features
 
 - Search movies by title, genre, release year, or any other relevant criteria.
