@@ -28,6 +28,11 @@ h3 {
   text-transform: uppercase;
 }
 
+.topnav a:hover {
+  color: red;
+  transition: all 0.15s;
+}
+
 .topnav .search-container {
   float: right; /* search container is displayed at the far right*/
 }
