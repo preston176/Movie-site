@@ -79,6 +79,7 @@ input {
 
 .card:hover {
   transform: scale(1.02);
+  cursor: pointer;
 }
 
 @media (max-width: 1280px) {
