@@ -80,6 +80,8 @@ input {
 .card:hover {
   transform: scale(1.02);
   cursor: pointer;
+  background-color: #d90808;
+  transition: transform 0.15s;
 }
 
 @media (max-width: 1280px) {
