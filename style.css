@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+#div1 {
+  padding-left: 16px;
+}
 body {
   background-color: #131720;
   font-family: sans-serif;
@@ -56,8 +59,8 @@ input {
 }
 
 .thumbnail {
-  height: 350px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
   border-radius: 19px;
 }
 
@@ -72,4 +75,44 @@ input {
   padding: 15px;
   text-align: center;
   background-color: #151f30;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 1280px) {
+  .thumbnail {
+    transform: scale(0.7);
+    height: 50%;
+    width: 50%;
+  }
+  h3 {
+    font-size: medium;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*Media queries - for responsiveness*/
+@media (max-width: 455px) {
+  h3 {
+    font-size: small;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: smaller;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
 }
