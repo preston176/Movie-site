@@ -1,6 +1,6 @@
-const url = new URL(location.href); 
-const movieId = url.searchParams.get("id")
-const movieTitle = url.searchParams.get("title")
+const url = new URL(location.href);
+const movieId = url.searchParams.get("id");
+const movieTitle = url.searchParams.get("title");
 
 const APILINK = 'https://review-backend.beaucarnes.repl.co/api/v1/reviews/';
 
